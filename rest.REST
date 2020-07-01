@@ -1,0 +1,18 @@
+
+###
+GET http://localhost:8000/songs
+
+###
+GET http://localhost:8000/songs?artistName=ee
+
+###
+GET http://localhost:8000/songs?artistName=Weez&limit=2&offset=10
+
+###
+GET http://localhost:8000/songs?artistName=No_one
+
+###
+GET http://localhost:8000/songs/2MLHyLy5z5l5YRp7momlgw
+
+###
+GET http://localhost:8000/songs/no_one

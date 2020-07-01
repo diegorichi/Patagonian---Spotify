@@ -1,0 +1,13 @@
+django==3.0.7
+django-autofixture==0.12.0
+django-filter==0.12.0
+djangorestframework==3.11.0
+mysqlclient==1.4.6
+pyflakes==1.0.0
+pytz==2020.1
+requests==2.24.0
+six==1.15.0
+spotipy==2.13.0
+sqlparse==0.3.1
+urllib3==1.25.9
+click==7.1.2

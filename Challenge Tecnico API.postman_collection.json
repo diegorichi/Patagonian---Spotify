@@ -1,0 +1,716 @@
+{
+	"info": {
+		"_postman_id": "5782be7d-9b43-4ea8-b37d-a5c1eba37309",
+		"name": "Challenge Tecnico API",
+		"description": "Challenge para candidatos a Backend Developers - PatagonianTech",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "songs",
+			"item": [
+				{
+					"name": "{songId}",
+					"item": [
+						{
+							"name": "Request to get \"Island In The Sun\" by id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/songs/2MLHyLy5z5l5YRp7momlgw",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"songs",
+										"2MLHyLy5z5l5YRp7momlgw"
+									]
+								},
+								"description": "Get the song with `songId = {songId}`"
+							},
+							"response": [
+								{
+									"name": "Request to get \"Island In The Sun\" by id",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/songs/2MLHyLy5z5l5YRp7momlgw",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"songs",
+												"2MLHyLy5z5l5YRp7momlgw"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Tue, 30 Jun 2020 21:54:11 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.6.4"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie"
+										},
+										{
+											"key": "Allow",
+											"value": "GET, HEAD, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "668"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": \"2MLHyLy5z5l5YRp7momlgw\",\n    \"name\": \"Island In The Sun\",\n    \"duration_ms\": 200306,\n    \"explicit\": false,\n    \"artists\": [\n        {\n            \"id\": \"3jOstUTkEu2JkjvRdBA5Gu\",\n            \"name\": \"Weezer\",\n            \"uri\": \"spotify:artist:3jOstUTkEu2JkjvRdBA5Gu\",\n            \"href\": \"https://api.spotify.com/v1/artists/3jOstUTkEu2JkjvRdBA5Gu\",\n            \"type\": \"artist\",\n            \"external_urls\": {\n                \"spotify\": \"https://open.spotify.com/artist/3jOstUTkEu2JkjvRdBA5Gu\"\n            }\n        }\n    ],\n    \"disc_number\": 1,\n    \"href\": \"https://api.spotify.com/v1/tracks/2MLHyLy5z5l5YRp7momlgw\",\n    \"is_local\": false,\n    \"is_playable\": null,\n    \"preview_url\": null,\n    \"track_number\": 4,\n    \"type\": \"track\",\n    \"uri\": \"spotify:track:2MLHyLy5z5l5YRp7momlgw\",\n    \"external_urls\": {\n        \"spotify\": \"https://open.spotify.com/track/2MLHyLy5z5l5YRp7momlgw\"\n    }\n}"
+								},
+								{
+									"name": "Request to get \"Island In The Sun\" by id",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/songs/2MLHyLy5z5l5YRp7momlgw",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"songs",
+												"2MLHyLy5z5l5YRp7momlgw"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Tue, 30 Jun 2020 22:05:07 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.6.4"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie"
+										},
+										{
+											"key": "Allow",
+											"value": "GET, HEAD, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "668"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": \"2MLHyLy5z5l5YRp7momlgw\",\n    \"name\": \"Island In The Sun\",\n    \"duration_ms\": 200306,\n    \"explicit\": false,\n    \"artists\": [\n        {\n            \"id\": \"3jOstUTkEu2JkjvRdBA5Gu\",\n            \"name\": \"Weezer\",\n            \"uri\": \"spotify:artist:3jOstUTkEu2JkjvRdBA5Gu\",\n            \"href\": \"https://api.spotify.com/v1/artists/3jOstUTkEu2JkjvRdBA5Gu\",\n            \"type\": \"artist\",\n            \"external_urls\": {\n                \"spotify\": \"https://open.spotify.com/artist/3jOstUTkEu2JkjvRdBA5Gu\"\n            }\n        }\n    ],\n    \"disc_number\": 1,\n    \"href\": \"https://api.spotify.com/v1/tracks/2MLHyLy5z5l5YRp7momlgw\",\n    \"is_local\": false,\n    \"is_playable\": null,\n    \"preview_url\": null,\n    \"track_number\": 4,\n    \"type\": \"track\",\n    \"uri\": \"spotify:track:2MLHyLy5z5l5YRp7momlgw\",\n    \"external_urls\": {\n        \"spotify\": \"https://open.spotify.com/track/2MLHyLy5z5l5YRp7momlgw\"\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "Request song not found",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/songs/id_not_found",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"songs",
+										"id_not_found"
+									]
+								},
+								"description": "Get the song with `songId = {songId}`"
+							},
+							"response": [
+								{
+									"name": "Request song not found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/songs/id_not_found",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"songs",
+												"id_not_found"
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Tue, 30 Jun 2020 22:03:11 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.6.4"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie"
+										},
+										{
+											"key": "Allow",
+											"value": "GET, HEAD, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "28"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"message\": \"Song not found\"\n}"
+								}
+							]
+						}
+					],
+					"description": "Song entity",
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Songs of Weezer with limit and offset",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/songs?artistName=eez&limit=2&offset=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"songs"
+							],
+							"query": [
+								{
+									"key": "artistName",
+									"value": "eez",
+									"description": "The name of the artist (case insensitive and doesn't need to match the whole name of the artist)"
+								},
+								{
+									"key": "limit",
+									"value": "2",
+									"description": "Limit results to specific quantity"
+								},
+								{
+									"key": "offset",
+									"value": "1",
+									"description": "Limit results to specific quantity"
+								}
+							]
+						},
+						"description": "Get a list of songs based on the song title."
+					},
+					"response": [
+						{
+							"name": "Songs of Weezer with limit and offset",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/songs?artistName=eez&limit=2&offset=1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"songs"
+									],
+									"query": [
+										{
+											"key": "artistName",
+											"value": "eez",
+											"description": "The name of the artist (case insensitive and doesn't need to match the whole name of the artist)"
+										},
+										{
+											"key": "limit",
+											"value": "2",
+											"description": "Limit results to specific quantity"
+										},
+										{
+											"key": "offset",
+											"value": "1",
+											"description": "Limit results to specific quantity"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Tue, 30 Jun 2020 22:06:56 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.6.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "281"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"count\": 19,\n    \"next\": \"http://localhost:8000/songs?artistName=eez&limit=2&offset=3\",\n    \"previous\": \"http://localhost:8000/songs?artistName=eez&limit=2\",\n    \"songs\": [\n        {\n            \"songId\": \"1yKu2MhpwzDXXH2tzG6xoa\",\n            \"songTitle\": \"Beverly Hills\"\n        },\n        {\n            \"songId\": \"3mwvKOyMmG77zZRunnxp9E\",\n            \"songTitle\": \"Buddy Holly\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "All Songs of Weezer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/songs?artistName=eez",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"songs"
+							],
+							"query": [
+								{
+									"key": "artistName",
+									"value": "eez",
+									"description": "The name of the artist (case insensitive and doesn't need to match the whole name of the artist)"
+								}
+							]
+						},
+						"description": "Get a list of songs based on the song title."
+					},
+					"response": [
+						{
+							"name": "All Songs of Weezer",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/songs?artistName=eez",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"songs"
+									],
+									"query": [
+										{
+											"key": "artistName",
+											"value": "eez",
+											"description": "The name of the artist (case insensitive and doesn't need to match the whole name of the artist)"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Tue, 30 Jun 2020 22:07:59 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.6.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1276"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"songs\": [\n        {\n            \"songId\": \"3ZPKocroJIcnHGcnJVlLKD\",\n            \"songTitle\": \"Africa\"\n        },\n        {\n            \"songId\": \"1yKu2MhpwzDXXH2tzG6xoa\",\n            \"songTitle\": \"Beverly Hills\"\n        },\n        {\n            \"songId\": \"3mwvKOyMmG77zZRunnxp9E\",\n            \"songTitle\": \"Buddy Holly\"\n        },\n        {\n            \"songId\": \"3g2gQMeeQAEPztiQKMlGSl\",\n            \"songTitle\": \"El Scorcho\"\n        },\n        {\n            \"songId\": \"3gEoKDn0uhb9qqLwC16tly\",\n            \"songTitle\": \"Everybody Wants to Rule the World\"\n        },\n        {\n            \"songId\": \"2jz1bw1p0WQj0PDnVDP0uY\",\n            \"songTitle\": \"Feels Like Summer\"\n        },\n        {\n            \"songId\": \"2mPMFJvQ0v27gVqe5b6nDn\",\n            \"songTitle\": \"Hash Pipe\"\n        },\n        {\n            \"songId\": \"4Fj6KslSYYQ1kAbafiKoz0\",\n            \"songTitle\": \"Hero\"\n        },\n        {\n            \"songId\": \"2MLHyLy5z5l5YRp7momlgw\",\n            \"songTitle\": \"Island In The Sun\"\n        },\n        {\n            \"songId\": \"227zkOoNpqRrzEPxvVRiF5\",\n            \"songTitle\": \"Lost in the Woods - Weezer Version\"\n        },\n        {\n            \"songId\": \"7ptKh9V0xt8CjLn0Z7ZgYd\",\n            \"songTitle\": \"Mr. Blue Sky\"\n        },\n        {\n            \"songId\": \"4nzyOwogJuWn1s6QuGFZ6w\",\n            \"songTitle\": \"My Name Is Jonas\"\n        },\n        {\n            \"songId\": \"3DkHNCA4QRBQgTzF2T18hm\",\n            \"songTitle\": \"Only In Dreams\"\n        },\n        {\n            \"songId\": \"1D7UBHqaPWDbBHs2S5YXge\",\n            \"songTitle\": \"Perfect Situation\"\n        },\n        {\n            \"songId\": \"7wclPheMJAUKn2njmO2s3A\",\n            \"songTitle\": \"Pork And Beans\"\n        },\n        {\n            \"songId\": \"6VoIBz0VhCyz7OdEoRYDiA\",\n            \"songTitle\": \"Say It Ain't So\"\n        },\n        {\n            \"songId\": \"1ZB2qWsheGabSEYvBYxjKn\",\n            \"songTitle\": \"Take on Me\"\n        },\n        {\n            \"songId\": \"4zB544yCIaSw3cuHltMCRJ\",\n            \"songTitle\": \"The End of the Game\"\n        },\n        {\n            \"songId\": \"5WhtlIoxoZrMmuaWWEQhwV\",\n            \"songTitle\": \"Undone - The Sweater Song\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "artistName required",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/songs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"songs"
+							]
+						},
+						"description": "Error por minimo de 3  "
+					},
+					"response": [
+						{
+							"name": "artistName required",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/songs",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"songs"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Tue, 30 Jun 2020 22:08:19 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.6.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "26"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    \"artistName is required\"\n]"
+						}
+					]
+				},
+				{
+					"name": "artistName minLength: 3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/songs?artistName=ee",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"songs"
+							],
+							"query": [
+								{
+									"key": "artistName",
+									"value": "ee",
+									"description": "Parameter to get an error (min len is 3 chars)"
+								}
+							]
+						},
+						"description": "Error por minimo de 3  "
+					},
+					"response": [
+						{
+							"name": "artistName minLength: 3",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/songs?artistName=ee",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"songs"
+									],
+									"query": [
+										{
+											"key": "artistName",
+											"value": "ee",
+											"description": "Parameter to get an error (min len is 3 chars)"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Tue, 30 Jun 2020 22:08:29 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.6.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "48"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    \"artistName should have more than three chars\"\n]"
+						}
+					]
+				},
+				{
+					"name": "artistName: Track not found",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/songs?artistName=no_one",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"songs"
+							],
+							"query": [
+								{
+									"key": "artistName",
+									"value": "no_one"
+								}
+							]
+						},
+						"description": "Send request with artistName, with no tacks"
+					},
+					"response": [
+						{
+							"name": "artistName: Track not found",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/songs?artistName=no_one",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"songs"
+									],
+									"query": [
+										{
+											"key": "artistName",
+											"value": "no_one"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Tue, 30 Jun 2020 22:08:42 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.6.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "12"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"songs\": []\n}"
+						}
+					]
+				}
+			],
+			"description": "Collection of available songs",
+			"protocolProfileBehavior": {}
+		}
+	],
+	"variable": [
+		{
+			"id": "baseUrl",
+			"key": "baseUrl",
+			"value": "",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
