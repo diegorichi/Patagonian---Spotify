@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://www.patagonia-it.com/wp-content/uploads/2020/04/Logo-Patagonia-IT-vSEO.png" alt="Project logo"></a>
+ <img width=200px height=200px src="http://diegorichi.com.ar/logo-patagonian.jpg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Patagonian Challenge</h3>
@@ -24,6 +24,7 @@
 - [Usage](#usage)
 - [Testing API](#testing)
 - [Built Using](#built_using)
+- [TODOs](#todo)
 - [Author](#author)
 
 
@@ -49,6 +50,8 @@ port: 3306
 
 To run the project you need some prerequisites:
 
+- I recommend that you have installed virtualenv to manage different environments.
+
 1. You have installed python 3.6 
 2. run pip install -r requirements.txt to install all dependencies
 3. Go to https://developer.spotify.com/dashboard/applications and create an app. Keep your Client ID and Client Secret
@@ -69,10 +72,18 @@ set SPOTIPY_CLIENT_SECRET='your-spotify-client-secret'
 
 With environments variables of spotify, we use the public api of spotify.com
 
-Load Songs: 
+Go to patagonian directory (there is manage.py file) and locate "load_artist_songs.py" file.
+
+Load Songs in windows: 
 ```
 load_spotify.cmd -i <artis_id_1>,<artis_id_2>,<artis_id_3>...
 ```
+
+Load Songs in linux:
+```
+python.exe .\load_artist_songs.py -i <artis_id_1>,<artis_id_2>,<artis_id_3>...
+```
+
 
 The application will load the songs
 
@@ -89,11 +100,10 @@ load_spotify.cmd --help
 ---
 Run API Rest.
 
-go to patagonian directory (there is manage.py file)
-
 run: python manage.py runserver
 
 Server runs at http://localhost:8000
+
 
 ## 🚀 Testing the API <a name = "testing"></a>
 
@@ -125,6 +135,12 @@ Another ways are:
 - [AWS RDS](https://aws.amazon.com/es/rds/) - Amazon Relational Database Service
 
 of course, Google and some others...
+
+## ✍️ TODOs (not requested in the challenge) <a name = "todo"></a>
+
+  - Provide authentication to api.
+  - Run over HTTPs.
+  
 
 ## ✍️ Authors <a name = "author"></a>
 
